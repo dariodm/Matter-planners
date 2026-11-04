@@ -1,0 +1,26 @@
+MATTER PLANNERS WEBSITE
+=======================
+
+What is in this folder
+  index.html   the whole site (text, styles and the edition list are all in this one file)
+  img/         the planner page images the site shows
+  og.png       the preview image that LinkedIn, iMessage and Slack show when someone shares the link
+
+To put it online (about ten minutes, no code)
+  1. Go to app.netlify.com/drop and sign up (free).
+  2. Drag this whole folder onto the page. The site is live within a minute at an address like
+     something-random.netlify.app. That link already works and can be shared.
+  3. To use your own domain: buy one (Cloudflare Registrar, Namecheap or Squarespace Domains, about
+     $10 to $20 a year), then in Netlify go to Domain management > Add a domain and follow the steps.
+     Netlify adds the security certificate for you.
+  4. Open index.html in any text editor, search for YOUR-DOMAIN (it appears twice) and replace it with
+     your domain, for example matterplanner.com. Save and drag the folder onto Netlify again.
+     This makes the preview image show when the link is shared.
+
+To update later
+  Edit index.html in a text editor and drag the folder onto Netlify again. Everything that changes
+  often is at the bottom of the file, in plain English:
+    EDITIONS       one block per edition: name, blurb, bullets, Amazon link, price, cover color
+    TESTIMONIALS   quotes from people who agreed to be quoted; the section appears when there is one
+    PHOTOS         your own photographs; drop the files in img/ and list them here
+    CONTACT_EMAIL  your email; the bulk-order question and the footer contact appear when it is set
